@@ -1,0 +1,46 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <com.ss.tmessanger.CardLayout
+        android:id="@+id/cardLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e3e3e3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/testCard"
+            style="@style/nowCardStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/card_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_launcher" />
+            
+            <TextView
+                android:id="@+id/txtView"
+            	style="@style/textCardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/hello_world" />
+            
+            <TextView
+                android:id="@+id/txtView"
+            	style="@style/textCardStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/menu_settings"
+                tools:context=".MainActivity" />
+        </LinearLayout>
+        
+    </com.ss.tmessanger.CardLayout>
+
+</ScrollView>

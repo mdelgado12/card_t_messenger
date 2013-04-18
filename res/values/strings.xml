@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">TMessanger</string>
+    <string name="hello_world">Irvania says: </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_sms_threads">TMessanger</string>
+
+</resources>
